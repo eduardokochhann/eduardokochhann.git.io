@@ -1,0 +1,126 @@
+/*Estilização padrão Vortex Group*/
+
+/*=Construção=*/
+.vtx-temp {
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;    
+}
+
+/*Geral Head + Body*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Quem somos*/
+.vtx-socios-g {
+	display: inline-block;
+	width: 40.33%;
+    margin-left: -25px;	
+}
+
+.vtx-socios-dv1 {
+	background: #FF2B39; 
+	width: 100%; 
+	height: 15%; 
+	margin-bottom: 4px;
+}
+
+.vtx-socios-dv2{
+	background: #091F37;
+	width: 100%; 
+	height: 80%; 
+	font-size: 8px; 
+	text-align: center;
+}
+
+.vtx-socios-dv2 label small{
+	position: absolute; 
+	margin-top: -7px;
+    font-size: 11px;
+}
+
+.vtx-socios-dv2 p {
+    padding: 6px;
+    line-height: 1.15;
+}
+
+.vtx-socios-dv2 strong {
+    font-size: 24px;
+}
+
+.vtx-pilares-g
+
+
+.vtx-container-pl {
+    background-image: url('caminho_para_sua_imagem.jpg');
+    background-size: cover;
+    height: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 999;
+    max-width: 80%;
+  }
+
+.vtx-btn-pl {
+    font-size: 12px;
+    padding: 5px 30px;
+    margin: 0 3px;
+    margin-bottom: -140px;
+    background-color: #FF2B39;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }  
+
+/*=Serviços=*/
+.vtx-services-TTL {
+	background: #FF2B39;
+    color: snow;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.vtx-services-txt {
+	background: #091F37;
+    color: snow;
+    margin: 0;
+    margin-bottom: 8px;
+    padding-top: 13px;
+}
+
+.vtx-container-slc {
+    position: relative;
+    width: 100%;
+    background-color: #091F37;
+    color: snow;
+}
+.vtx-imagem-slc {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.vtx-texto-slc {
+    /*position: absolute;*/
+    top: 10%;
+    left: 5%;
+    color: snow;
+    background-color:#FF2B39;
+}
